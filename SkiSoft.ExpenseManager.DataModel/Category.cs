@@ -1,0 +1,9 @@
+namespace SkiSoft.ExpenseManager.DataModel
+{
+  public class Category
+  {
+    public string Name { get; set; }
+    public string Description { get; set; }
+    public Category Parent { get; set; }
+  }
+}

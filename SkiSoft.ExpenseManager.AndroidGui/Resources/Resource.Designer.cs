@@ -26,6 +26,8 @@ namespace SkiSoft.ExpenseManager.AndroidGui
 		
 		public static void UpdateIdValues()
 		{
+			global::SkiSoft.ExpenseManager.DataModel.Resource.String.ApplicationName = global::SkiSoft.ExpenseManager.AndroidGui.Resource.String.ApplicationName;
+			global::SkiSoft.ExpenseManager.DataModel.Resource.String.Hello = global::SkiSoft.ExpenseManager.AndroidGui.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
