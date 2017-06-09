@@ -77,7 +77,7 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DataModel\SkiSoft.ExpenseManager.DataModel.csproj">
+    <ProjectReference Include="..\SkiSoft.ExpenseManager.DataModel\SkiSoft.ExpenseManager.DataModel.csproj">
       <Project>{ed5f3139-d173-40cb-8421-a37c11ee8c96}</Project>
       <Name>SkiSoft.ExpenseManager.DataModel</Name>
     </ProjectReference>

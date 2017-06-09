@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiSoft.ExpenseManager.Andr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiSoft.ExpenseManager.UwpGui", "SkiSoft.ExpenseManager.UwpGui\SkiSoft.ExpenseManager.UwpGui.csproj", "{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiSoft.ExpenseManager.DataModel", "DataModel\SkiSoft.ExpenseManager.DataModel.csproj", "{ED5F3139-D173-40CB-8421-A37C11EE8C96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiSoft.ExpenseManager.DataModel", "SkiSoft.ExpenseManager.DataModel\SkiSoft.ExpenseManager.DataModel.csproj", "{ED5F3139-D173-40CB-8421-A37C11EE8C96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
