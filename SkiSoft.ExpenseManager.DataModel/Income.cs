@@ -1,6 +1,6 @@
 ﻿namespace SkiSoft.ExpenseManager.DataModel
 {
-  public class IncomingTransaction : Transaction
+  public class Income : Transaction
   {
     public override decimal Value => AbsoluteValue;
   }

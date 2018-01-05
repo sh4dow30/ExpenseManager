@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.12
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiSoft.ExpenseManager.AndroidGui", "SkiSoft.ExpenseManager.AndroidGui\SkiSoft.ExpenseManager.AndroidGui.csproj", "{3548E924-B11B-4E5C-906C-A6F7311FA5CF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiSoft.ExpenseManager.UwpGui", "SkiSoft.ExpenseManager.UwpGui\SkiSoft.ExpenseManager.UwpGui.csproj", "{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiSoft.ExpenseManager.DataModel", "SkiSoft.ExpenseManager.DataModel\SkiSoft.ExpenseManager.DataModel.csproj", "{ED5F3139-D173-40CB-8421-A37C11EE8C96}"
 EndProject
@@ -47,26 +45,6 @@ Global
 		{3548E924-B11B-4E5C-906C-A6F7311FA5CF}.Release|x86.ActiveCfg = Release|Any CPU
 		{3548E924-B11B-4E5C-906C-A6F7311FA5CF}.Release|x86.Build.0 = Release|Any CPU
 		{3548E924-B11B-4E5C-906C-A6F7311FA5CF}.Release|x86.Deploy.0 = Release|Any CPU
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Debug|ARM.ActiveCfg = Debug|ARM
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Debug|ARM.Build.0 = Debug|ARM
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Debug|ARM.Deploy.0 = Debug|ARM
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Debug|x64.ActiveCfg = Debug|x64
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Debug|x64.Build.0 = Debug|x64
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Debug|x64.Deploy.0 = Debug|x64
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Debug|x86.ActiveCfg = Debug|x86
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Debug|x86.Build.0 = Debug|x86
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Debug|x86.Deploy.0 = Debug|x86
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Release|Any CPU.ActiveCfg = Release|x86
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Release|ARM.ActiveCfg = Release|ARM
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Release|ARM.Build.0 = Release|ARM
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Release|ARM.Deploy.0 = Release|ARM
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Release|x64.ActiveCfg = Release|x64
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Release|x64.Build.0 = Release|x64
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Release|x64.Deploy.0 = Release|x64
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Release|x86.ActiveCfg = Release|x86
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Release|x86.Build.0 = Release|x86
-		{DF402FD0-2485-4CC9-B073-B7F67B4CEBCE}.Release|x86.Deploy.0 = Release|x86
 		{ED5F3139-D173-40CB-8421-A37C11EE8C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED5F3139-D173-40CB-8421-A37C11EE8C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED5F3139-D173-40CB-8421-A37C11EE8C96}.Debug|ARM.ActiveCfg = Debug|Any CPU
@@ -102,5 +80,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {153F3E0A-6E8E-49CB-B686-A5EA21BB973B}
 	EndGlobalSection
 EndGlobal

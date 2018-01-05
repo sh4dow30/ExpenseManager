@@ -11,7 +11,7 @@ namespace SkiSoft.ExpenseManager.DataModel.Tests
     [TestMethod]
     public void IncomingTransaction_Value_ReturnAbsoluteValue()
     {
-      Transaction incomingTransaction = new IncomingTransaction() { AbsoluteValue = c_value };
+      Transaction incomingTransaction = new Income() { AbsoluteValue = c_value };
 
       Assert.AreEqual(c_value, incomingTransaction.Value);
     }
@@ -19,7 +19,7 @@ namespace SkiSoft.ExpenseManager.DataModel.Tests
     [TestMethod]
     public void OutgoingTransaction_Value_ReturnMinusAbsoluteValue()
     {
-      Transaction incomingTransaction = new OutgoingTransaction() { AbsoluteValue = c_value };
+      Transaction incomingTransaction = new Expense() { AbsoluteValue = c_value };
 
       Assert.AreEqual(-c_value, incomingTransaction.Value);
     }
